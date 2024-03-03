@@ -1,0 +1,327 @@
+{
+  "groups": [
+    {
+      "name": "sa-token",
+      "type": "cn.dev33.satoken.config.SaTokenConfig",
+      "sourceType": "cn.dev33.satoken.spring.SaBeanRegister",
+      "sourceMethod": "getSaTokenConfig()"
+    },
+    {
+      "name": "sa-token.oauth2",
+      "type": "cn.dev33.satoken.oauth2.config.SaOAuth2Config",
+      "sourceType": "cn.dev33.satoken.spring.oauth2.SaOAuth2BeanRegister",
+      "sourceMethod": "getSaOAuth2Config()"
+    },
+    {
+      "name": "sa-token.sso",
+      "type": "cn.dev33.satoken.config.SaSsoConfig",
+      "sourceType": "cn.dev33.satoken.spring.sso.SaSsoBeanRegister",
+      "sourceMethod": "getSaSsoConfig()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "sa-token.active-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.auto-renew",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.basic",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.check-same-token",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.cookie",
+      "type": "cn.dev33.satoken.config.SaCookieConfig",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.curr-domain",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.data-refresh-period",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.dynamic-active-timeout",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.is-color-log",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.is-concurrent",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.is-log",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.is-print",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.is-read-body",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.is-read-cookie",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.is-read-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.is-share",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.is-write-header",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.jwt-secret-key",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.log-level",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.log-level-int",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.max-login-count",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.max-try-times",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.oauth2.access-token-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "cn.dev33.satoken.oauth2.config.SaOAuth2Config"
+    },
+    {
+      "name": "sa-token.oauth2.client-token-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "cn.dev33.satoken.oauth2.config.SaOAuth2Config"
+    },
+    {
+      "name": "sa-token.oauth2.code-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "cn.dev33.satoken.oauth2.config.SaOAuth2Config"
+    },
+    {
+      "name": "sa-token.oauth2.confirm-view",
+      "type": "java.util.function.BiFunction<java.lang.String,java.lang.String,java.lang.Object>",
+      "sourceType": "cn.dev33.satoken.oauth2.config.SaOAuth2Config"
+    },
+    {
+      "name": "sa-token.oauth2.do-login-handle",
+      "type": "java.util.function.BiFunction<java.lang.String,java.lang.String,java.lang.Object>",
+      "sourceType": "cn.dev33.satoken.oauth2.config.SaOAuth2Config"
+    },
+    {
+      "name": "sa-token.oauth2.is-client",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.oauth2.config.SaOAuth2Config"
+    },
+    {
+      "name": "sa-token.oauth2.is-code",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.oauth2.config.SaOAuth2Config"
+    },
+    {
+      "name": "sa-token.oauth2.is-implicit",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.oauth2.config.SaOAuth2Config"
+    },
+    {
+      "name": "sa-token.oauth2.is-new-refresh",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.oauth2.config.SaOAuth2Config"
+    },
+    {
+      "name": "sa-token.oauth2.is-password",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.oauth2.config.SaOAuth2Config"
+    },
+    {
+      "name": "sa-token.oauth2.not-login-view",
+      "type": "java.util.function.Supplier<java.lang.Object>",
+      "sourceType": "cn.dev33.satoken.oauth2.config.SaOAuth2Config"
+    },
+    {
+      "name": "sa-token.oauth2.past-client-token-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "cn.dev33.satoken.oauth2.config.SaOAuth2Config"
+    },
+    {
+      "name": "sa-token.oauth2.refresh-token-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "cn.dev33.satoken.oauth2.config.SaOAuth2Config"
+    },
+    {
+      "name": "sa-token.same-token-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.sign",
+      "type": "cn.dev33.satoken.config.SaSignConfig",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.sso.allow-url",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.auth-url",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.check-ticket-url",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.client",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.do-login-handle",
+      "type": "java.util.function.BiFunction<java.lang.String,java.lang.String,java.lang.Object>",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.get-data-url",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.is-http",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.is-slo",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.mode",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.not-login-view",
+      "type": "java.util.function.Supplier<java.lang.Object>",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.send-http",
+      "type": "java.util.function.Function<java.lang.String,java.lang.String>",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.server-url",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.slo-url",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.sso-logout-call",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.ticket-result-handle",
+      "type": "java.util.function.BiFunction<java.lang.Object,java.lang.String,java.lang.Object>",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.ticket-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.sso.userinfo-url",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaSsoConfig"
+    },
+    {
+      "name": "sa-token.timeout",
+      "type": "java.lang.Long",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.token-name",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.token-prefix",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.token-session-check-login",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.token-style",
+      "type": "java.lang.String",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig"
+    },
+    {
+      "name": "sa-token.activity-timeout",
+      "type": "java.lang.Long",
+      "sourceType": "cn.dev33.satoken.config.SaTokenConfig",
+      "deprecated": true,
+      "deprecation": {}
+    }
+  ],
+  "hints": []
+}

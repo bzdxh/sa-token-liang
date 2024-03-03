@@ -1,0 +1,10 @@
+cn\dev33\satoken\sso\SaSsoUtil.class
+cn\dev33\satoken\sso\SaSsoTemplate.class
+cn\dev33\satoken\sso\error\SaSsoErrorCode.class
+cn\dev33\satoken\sso\SaSsoManager.class
+cn\dev33\satoken\sso\SaSsoConsts.class
+cn\dev33\satoken\sso\SaSsoProcessor.class
+cn\dev33\satoken\sso\name\ApiName.class
+cn\dev33\satoken\sso\exception\SaSsoException.class
+cn\dev33\satoken\sso\name\ParamName.class
+cn\dev33\satoken\config\SaSsoConfig.class
